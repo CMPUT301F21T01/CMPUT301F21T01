@@ -4,12 +4,11 @@ public abstract class Shape {
 
     private int x;
     private int y;
-    private String color;
+    String color = "purple";
 
     Shape(int _x, int _y) {
         this.x = _x;
         this.y = _y;
-        this.color = "purple";
     }
 
 }
